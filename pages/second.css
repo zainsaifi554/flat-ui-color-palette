@@ -1,0 +1,1032 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    
+    
+   
+
+
+}
+
+.main-container a {
+
+
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+    display: flex;
+
+
+
+}
+
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    width: 98%;
+    padding: 10px;
+   display: flex;
+    
+    justify-content: space-between;
+}
+
+.center-content {
+    height: 100%;
+    width: 300px;
+
+
+}
+
+.center-content button {
+
+    width:300px ;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+
+    background: black
+}
+
+.left-content {
+    display: flex;
+font-size: 20px;
+    align-items: center;
+}
+
+
+.left-content span{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.right-content {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.right-content img {
+    height: 22px;
+    width: 22px;
+
+}
+
+
+
+
+
+.row-box-1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.hover-container span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color:#00a8ff;   
+    padding: 20px;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+.hover-container-2 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-2{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #9c88ff;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-2:hover .hover-button {
+    display: block; 
+}
+
+
+.hover-container-3 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-3{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #fbc531;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-3:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-4 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-4{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #4cd137;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-4:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-5 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-5{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #487eb0;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-5:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.row-box-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.hover-container-6 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-6{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #0097e6;   
+    padding: 20px;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-6:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+.hover-container-7 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-7{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #8c7ae6;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-7:hover .hover-button {
+    display: block; 
+}
+
+
+.hover-container-8 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-8{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #e1b12c;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-8:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-9 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-9{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #44bd32;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-9:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-10 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-10{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color:#40739e;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-10:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+
+.row-box-3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.hover-container-11 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-11{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #e84118;   
+    padding: 20px;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-11:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+.hover-container-12 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-12{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #f5f6fa;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-12:hover .hover-button {
+    display: block; 
+}
+
+
+.hover-container-13 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-13{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color:#7f8fa6;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-13:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-14 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-14{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #273c75;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-14:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-15 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-15{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color:#353b48;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-15:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+.row-box-4{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.hover-container-16 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-16{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #c23616;   
+    padding: 20px;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-16:hover .hover-button {
+    display: block; 
+}
+
+
+
+
+
+.hover-container-17 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-17{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #dcdde1;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-17:hover .hover-button {
+    display: block; 
+}
+
+
+.hover-container-18 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-18{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #718093;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-18:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-19 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-19{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color: #192a56;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-19:hover .hover-button {
+    display: block; 
+}
+
+
+
+.hover-container-20 span{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    left: 65%;
+}
+
+.hover-container-20{
+    
+    position: relative;
+    width: 20%;
+    height: 100px;
+    background-color:#2f3640;   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.hover-button {
+    display: none; /* Hide button by default */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hover-container-20:hover .hover-button {
+    display: block; 
+}
